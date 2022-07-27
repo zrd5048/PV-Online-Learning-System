@@ -1,8 +1,10 @@
 # Read Me
 
 ---
+
 ## Important Info
 
+Demo developed as a visual of what an online grading system could look like.
 
 ---
 
