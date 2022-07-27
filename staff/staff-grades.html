@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Grading System</title>
+    <style>
+        .grades{
+            text-align: center;
+        }
+    </style>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <h1>Student Grading System</h1>
+    </header>
+    <main>
+        <table>
+            <thead>
+                <input type="text" placeholder="Student Name Here" style="margin-left: 5em;"> <caption>Grades</caption>
+                    <tr>
+                        <th colspan="2">Class</th>
+                        <div>
+                            <th>Value</th>
+                        </div>
+                    </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="2">Intro to HTML:</td>
+                    <td class="grades"><input type="number" min="0" max="100"></td>
+                </tr>
+                <tr>
+                    <td colspan="2">Networking:</td>
+                    <td class="grades"><input type="number" min="0" max="100"></td>
+                </tr>
+                <tr>
+                    <td colspan="2">Intro to CSS:</td>
+                    <td class="grades"><input type="number" min="0" max="100"></td>
+                </tr>
+                <tr>
+                    <td colspan="2">Theoretical Physics:</td>
+                    <td class="grades"><input type="number" min="0" max="100"></td> <!--L-->
+                </tr>
+            </tbody>
+        </table>
+        <a href="staff-home-page.html"><input type="submit" value="Input Grades"></a>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
